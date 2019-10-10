@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  background-color: #79756f;
+  border-top: solid #595652 .3em;
+  border-bottom: solid #595652 .3em;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Bevan";
+  padding-top: .5em;
+}
+
+
+
+li {
+  display: inline-block;
+  color: #fff;
+  background-color: #713837;
+  padding: .75em;
+  font-family: sans-serif;
+  list-style-type: none;
+  border-radius: .3em;
+  margin-bottom: .3em;
+}
