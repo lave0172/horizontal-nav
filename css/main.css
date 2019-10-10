@@ -1,14 +1,19 @@
-html body {
+html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
+}
+
+body {
+  background-color: #dbd6cf;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-nav {
+header nav {
   background-color: #79756f;
   border-top: solid #595652 .3em;
   border-bottom: solid #595652 .3em;
@@ -18,13 +23,12 @@ h1 {
   color: #fff;
   text-align: center;
   margin: 0 auto;
-  font-family: "Bevan", cursive;
-  padding-top: .5em;
+  font-family: "Bevan", normal;
+  padding-top: .75em;
 }
 
-li {
+header nav ul li {
   display: inline-block;
-  color: #fff;
   background-color: #713837;
   padding: .75em;
   font-family: sans-serif;
@@ -33,6 +37,15 @@ li {
   margin-bottom: .3em;
 }
 
-li:hover {
-  color: #f33;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #f33;
+}
+
+header nav ul li:hover {
+  background-color: #f33;
 }
