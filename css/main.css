@@ -23,14 +23,15 @@ h1 {
   color: #fff;
   text-align: center;
   margin: 0 auto;
-  font-family: "Bevan", normal;
-  padding-top: .75em;
+  font-family: 'Bevan, serif';
+  padding-top: .5em;
+  font-size: 2em;
 }
 
 header nav ul li {
   display: inline-block;
   background-color: #713837;
-  padding: .75em;
+  padding: .6em;
   font-family: sans-serif;
   list-style-type: none;
   border-radius: .3em;
